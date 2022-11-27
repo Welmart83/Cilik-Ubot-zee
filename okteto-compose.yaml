@@ -3,7 +3,7 @@ service:
  worker:
    build: .
    environment:
-     - API_ID=${API_ID}
-     - API_HASH=${API_HASH}
-     - BOTLOG_CHATID=${BOTLOG_CHATID}
-     - STRING_SESSION1=${STRING_SESSION1}
+     - API_ID=
+     - API_HASH=
+     - BOTLOG_CHATID=
+     - STRING_SESSION1=
