@@ -1,9 +1,17 @@
 version: "3.9"
-service:
- worker:
-   build: .
-   environment:
-     - API_ID=
-     - API_HASH=
-     - BOTLOG_CHATID=
-     - STRING_SESSION1=
+
+services:
+
+  worker:
+
+    build: .
+
+    environment:
+
+      API_ID: $API_ID
+
+      API_HASH: $API_HASH
+
+      STRING_SESSION: $STRING_SESSION
+
+      BOT_TOKEN: $BOT_TOKEN
